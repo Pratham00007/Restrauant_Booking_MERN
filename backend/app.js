@@ -3,7 +3,7 @@ import cors from "cors";
 import dotenv from "dotenv";
 import { dbConnection } from "./database/dbConnection.js";
 import { errorMiddleware } from "./error/error.js";
-
+import reservationRoute from './routes/ReservationRoute.js'
 const app=express();
 dotenv.config({path : "./config/config.env"});
 
@@ -18,7 +18,7 @@ app.use(cors({
 app.use(express.json());
 // kis type ka data use karne wale 
 app.use(express.urlencoded({extended:true}));
-
+app.use("/api/v1/reservation",reservationRoute)
 dbConnection();
 
 app.use(errorMiddleware);
