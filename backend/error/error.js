@@ -1,4 +1,4 @@
-class Eroorhandler extends Error{
+class Errorhandler extends Error{
     constructor(message,statusCode){
         super(message); // error class in js already exist and call message from that
         this.statusCode=statusCode;
@@ -16,4 +16,4 @@ export const errorMiddleware = (err,req,res,next)=>{
     });
 };
 
-export default Eroorhandler;
+export default Errorhandler;
