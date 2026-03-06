@@ -45,7 +45,22 @@ The project is divided into two main folders:
 
 ---
 
-## Demo 🎥
+## Screenshots 🎥
+
+<img width="1919" height="892" alt="image" src="https://github.com/user-attachments/assets/6bbe4eff-4dc2-485c-9bc2-583f7d4659ed" />
+
+<img width="1919" height="877" alt="image" src="https://github.com/user-attachments/assets/62304615-4169-4cd2-9365-6effa2fc54f1" />
+
+<img width="1919" height="887" alt="image" src="https://github.com/user-attachments/assets/b6a75204-cd35-4e7d-846b-726dba1e5eb4" />
+
+<img width="1919" height="901" alt="image" src="https://github.com/user-attachments/assets/71108251-956f-403c-af0c-252373f891f9" />
+
+
+<img width="1919" height="901" alt="image" src="https://github.com/user-attachments/assets/4130935c-6385-4ca5-a50c-709f05e86679" />
+
+<img width="1919" height="894" alt="image" src="https://github.com/user-attachments/assets/569602eb-2ebb-437b-ae6c-3d20a93ad7d5" />
+
+
 
 
 ---
