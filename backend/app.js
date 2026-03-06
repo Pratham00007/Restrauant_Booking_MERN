@@ -9,9 +9,9 @@ dotenv.config({path : "./config/config.env"});
 
 // app,use is used to -> use cors as mioddleware
 app.use(cors({
-    origin:[process.env.FRONTEND_URL], // fornnted ka path jisko backend se connect karna hai
-    methods:["POST"],
-    credentials:true
+    origin: process.env.FRONTEND_URL, // just a string
+    methods: ["GET","POST","PUT","DELETE","OPTIONS"], // allow OPTIONS too
+    credentials: true
 }));
 
 // string conversion 
